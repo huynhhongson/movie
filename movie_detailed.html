@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/movie_page.css" />
+    <link rel="stylesheet" href="css/detailed.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="main-nav">
+        <ion-icon class="logo" name="film-outline"></ion-icon>
+        <a href="#" class="main-nav-el">
+          <ion-icon class="nav-logo" name="home"></ion-icon>
+          <span>Home</span>
+        </a>
+        <a href="#" class="main-nav-el">
+          <ion-icon class="nav-logo" name="flame"></ion-icon>
+          <span>Popular</span>
+        </a>
+        <a href="#" class="main-nav-el">
+          <ion-icon class="nav-logo" name="star"></ion-icon>
+          <span>My List</span>
+        </a>
+        <div class="search-bar">
+          <input type="text" class="search-bar-input" placeholder="Search" />
+          <button class="search-bar-submit">
+            <ion-icon class="nav-logo" name="search"></ion-icon>
+          </button>
+        </div>
+      </nav>
+
+      <a href="#" class="main-nav-el"
+        ><ion-icon class="avatar" name="person-circle-outline"></ion-icon
+      ></a>
+    </header>
+
+    <main>
+      <section class="detailed-section">
+        <div class="container grid movie-details">
+          <div class="detailed-thumbnail">
+            <div class="thumbnail-container">
+              <img
+                class="thumbnail"
+                src="images/gallery-img-1.jpg"
+                alt="movie thumbnail"
+              />
+              <ion-icon
+                class="thumbnail-play-btn"
+                name="play-outline"
+              ></ion-icon>
+            </div>
+
+            <button class="primary-btn-alt detailed-play-btn">
+              <ion-icon name="play-outline"></ion-icon>
+              <span>Play now</span>
+            </button>
+          </div>
+          <div class="detailed-info">
+            <h1 class="heading-primary detailed-title">The Irishman</h1>
+            <p class="detailed-length">1h 0m</p>
+            <button class="center-vertical primary-btn-alt">
+              <ion-icon name="add-outline"></ion-icon>
+              <span>Add to list</span>
+            </button>
+            <p class="detailed-casts">
+              Casts: Robert De NiroAl, Pacino, Joe Pesci
+            </p>
+            <p class="detailed-genres">Genres: Action, Adult, ...</p>
+            <p class="description detailed-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, dolore error reprehenderit, quas saepe tempore
+              tempora accusamus eaque aliquam ad, atque voluptatum est nihil!
+              Unde neque sequi optio esse dolor!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommended-section">
+        <div class="container">
+          <h3 class="heading-tertiary">Similar to this</h3>
+
+          <div class="grid grid-search-content">
+            <div class="movie-card">
+              <div class="card-front">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+              </div>
+              <div class="card-back">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+                <div class="card-content">
+                  <h5 class="movie-title">Irish Man</h5>
+                  <p class="movie-length">1h 0m</p>
+                  <div class="movie-buttons">
+                    <a href="#"
+                      ><ion-icon name="play-circle-outline"></ion-icon
+                    ></a>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="movie-card">
+              <div class="card-front">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+              </div>
+              <div class="card-back">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+                <div class="card-content">
+                  <h5 class="movie-title">Irish Man</h5>
+                  <p class="movie-length">1h 0m</p>
+                  <div class="movie-buttons">
+                    <a href="#"
+                      ><ion-icon name="play-circle-outline"></ion-icon
+                    ></a>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="movie-card">
+              <div class="card-front">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+              </div>
+              <div class="card-back">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+                <div class="card-content">
+                  <h5 class="movie-title">Irish Man</h5>
+                  <p class="movie-length">1h 0m</p>
+                  <div class="movie-buttons">
+                    <a href="#"
+                      ><ion-icon name="play-circle-outline"></ion-icon
+                    ></a>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="movie-card">
+              <div class="card-front">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+              </div>
+              <div class="card-back">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+                <div class="card-content">
+                  <h5 class="movie-title">Irish Man</h5>
+                  <p class="movie-length">1h 0m</p>
+                  <div class="movie-buttons">
+                    <a href="#"
+                      ><ion-icon name="play-circle-outline"></ion-icon
+                    ></a>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="movie-card">
+              <div class="card-front">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+              </div>
+              <div class="card-back">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+                <div class="card-content">
+                  <h5 class="movie-title">Irish Man</h5>
+                  <p class="movie-length">1h 0m</p>
+                  <div class="movie-buttons">
+                    <a href="#"
+                      ><ion-icon name="play-circle-outline"></ion-icon
+                    ></a>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="movie-card">
+              <div class="card-front">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+              </div>
+              <div class="card-back">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+                <div class="card-content">
+                  <h5 class="movie-title">Irish Man</h5>
+                  <p class="movie-length">1h 0m</p>
+                  <div class="movie-buttons">
+                    <a href="#"
+                      ><ion-icon name="play-circle-outline"></ion-icon
+                    ></a>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="movie-card">
+              <div class="card-front">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+              </div>
+              <div class="card-back">
+                <img
+                  class="thumbnail"
+                  src="images/gallery-img-1.jpg"
+                  alt="movie thumbnail"
+                />
+                <div class="card-content">
+                  <h5 class="movie-title">Irish Man</h5>
+                  <p class="movie-length">1h 0m</p>
+                  <div class="movie-buttons">
+                    <a href="#"
+                      ><ion-icon name="play-circle-outline"></ion-icon
+                    ></a>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <ul class="media-col">
+          <li>
+            <a class="footer-link" href="#"
+              ><ion-icon class="social-icon" name="logo-youtube"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a class="footer-link" href="#"
+              ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a class="footer-link" href="#"
+              ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+        </ul>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav flex-column">
+            <li><a class="footer-link" href="#">Create Account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav flex-column">
+            <li><a class="footer-link" href="#">About Us</a></li>
+            <li><a class="footer-link" href="#">Contact</a></li>
+            <li><a class="footer-link" href="#">Partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Help center</p>
+          <ul class="footer-nav flex-column">
+            <li><a class="footer-link" href="#">Term of Use</a></li>
+            <li><a class="footer-link" href="#">Plans & Pricing</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+  <script src="js/main.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>

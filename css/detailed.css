@@ -1,0 +1,70 @@
+.detailed-section {
+  padding-top: 12.8rem;
+}
+
+.movie-details {
+  grid-template-columns: 40% 60%;
+  column-gap: 4.8rem;
+  align-items: start;
+}
+
+.thumbnail-container {
+  position: relative;
+  opacity: 0.7;
+
+  transition: opacity 0.3s;
+}
+
+.thumbnail-play-btn {
+  font-size: 3.6rem;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.thumbnail-container:hover {
+  opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-play-btn {
+  background-color: rgba(0, 0, 0, 0.493);
+}
+
+button.detailed-play-btn {
+  width: 100%;
+}
+
+.detailed-title {
+  margin-bottom: 0.8rem;
+}
+
+.detailed-length,
+.detailed-casts,
+.detailed-genres {
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.detailed-length {
+  font-size: 1.8rem;
+}
+
+.detailed-casts,
+.detailed-genres {
+  font-size: 1.6rem;
+}
+
+.detailed-description {
+  font-size: 1.8rem;
+}
+
+.detailed-genre {
+  width: 100%;
+}
